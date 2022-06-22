@@ -4,6 +4,6 @@ variable "instance_type" {
 }
 
 variable "jenkins_port" {
-  type = number
+  type    = number
   default = 8080
 }
