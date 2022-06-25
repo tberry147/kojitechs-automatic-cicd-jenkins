@@ -62,6 +62,7 @@ resource "aws_iam_policy" "policy" {
           "ssm:*",
           "ssmmessages:*",
           "s3:*",
+          "dynamodb:*",
           "sns:*",
           "sqs:*",
           "ec2:DescribeNetworkInterfaces",
